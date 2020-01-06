@@ -236,7 +236,7 @@ a:hover{
 	margin-bottom: 0;
 }
 .br-right{
-	padding: 20px 40px;
+	padding: 40px;
 	background: #fff;
 	min-height: 650px;
 }
@@ -749,4 +749,87 @@ ul.selprice li label{
 .box-filter .btn-smb{
 	height: 38px;
 	line-height: 38px;
+}
+.group-select-game ul{
+	display: flex;
+	justify-content: center;
+}
+.group-select-game ul li{
+	margin: 0 15px;
+	text-align: center;
+	cursor: pointer;
+}
+.group-select-game ul li p{
+	font-size: 14px;
+	margin-bottom: 0;
+	margin-top: 15px;
+}
+.group-select-game ul li.selected p{
+	font-weight: bold;
+	color: #448ccb;
+}
+/*==================== NEWS ================*/
+.news-left ul.groupbanner-ads li{
+	height: auto;
+	padding: 0;
+	background: transparent;
+	display: block;
+	margin-bottom: 10px;
+}
+.news-left ul.groupbanner-ads li img{
+	width: 100%;
+}
+.archive-menu ul{
+	border-bottom: 1px solid #cccccc;
+	margin-bottom: 40px;
+	padding-bottom: 20px;
+}
+.archive-menu ul li a{
+	font-weight: bold;
+	color: #222222;
+	text-transform: uppercase;
+	margin: 0 15px;
+}
+.archive-menu ul li.active a{
+	background: #448ccb;
+	display: block;
+	width: 148px;
+	height: 42px;
+	text-align: center;
+	line-height: 42px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	color: #fff;
+}
+.news-list li{
+	display: flex;
+	margin-bottom: 30px;
+}
+.news-list li .content-right{
+	margin-left: 30px;
+}
+.news-list li .content-right h3{
+	line-height: 29px;
+}
+.news-list li .content-right h3 a{
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 0;
+	color: #111111;
+	text-transform: uppercase;
+}
+.news-more a.btn-kdg{
+	font-weight: 500;
+	font-family: 'Big Shoulders Text';
+	color: #cccccc;
+	text-transform: uppercase;
+	font-size: 17px;
+	border: 1px solid #cccccc;
+	width: 128px;
+	height: 36px;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
 }

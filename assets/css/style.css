@@ -1,0 +1,752 @@
+@font-face {
+    font-family: 'Big Shoulders Text';
+    src: url('../fonts/BigShouldersText-Regular.woff2') format('woff2'),
+        url('../fonts/BigShouldersText-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Big Shoulders Text';
+    src: url('../fonts/BigShouldersText-Bold.woff2') format('woff2'),
+        url('../fonts/BigShouldersText-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Big Shoulders Text';
+    src: url('../fonts/BigShouldersText-Medium.woff2') format('woff2'),
+        url('../fonts/BigShouldersText-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Big Shoulders Text';
+    src: url('../fonts/BigShouldersText-Black.woff2') format('woff2'),
+        url('../fonts/BigShouldersText-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+body{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 13px;
+	color: #222222;
+}
+a{
+	color: #448ccb;
+}
+a:hover{
+	text-decoration: none;
+	color: #448ccb;
+}
+.container{
+	max-width: 1200px;
+}
+.mobile-menu{
+	position: absolute;
+	left: 15px;
+}
+/*================ Login/ Register =============*/
+.wrapepr-account #footer{
+	background: #fff;
+	border-top: 1px solid #dddddd;
+	padding: 30px 0;
+}
+.wrapepr-account #footer .absolute-footer p{
+	margin-bottom: 0;
+}
+.login-page .btn-smb{
+	height: 50px;
+	line-height: 50px;
+	font-size: 21px;
+}
+.title-form{
+	font-size: 24px;
+	font-weight: bold;
+	font-family: 'Big Shoulders Text';
+	margin-bottom: 30px;
+	text-align: center;
+}
+.title-form i{
+	margin-right: 5px;
+}
+.login-left{
+	background: #eeeeee;
+	padding: 30px;
+	min-height: 325px;
+}
+.login-left input{
+	height: 50px;
+	border: none;
+	border-radius: 0;
+	padding: 0 20px;
+}
+#main-content.login-page{
+	background: #fff;
+	padding: 50px 0 100px;
+	min-height: 600px;
+}
+.sub-title{
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+.dk-btn{
+	border-bottom: 1px solid #cccccc;
+	padding-bottom: 45px;
+	margin-bottom: 25px;
+}
+.dk-btn a{
+	max-width: 220px;
+	margin: 0 auto;
+}
+.dk-btn a:hover{
+	color: #fff;
+}
+.social-login{
+	text-align: center;
+	margin: 0 auto;
+}
+.btn-social{
+	border-radius: 20px;
+	border: 1px solid #999999;
+	width: 160px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	padding: 0 12px;
+	color: #999999;
+	font-size: 14px;
+	margin: 0 auto;
+	line-height: 0;
+}
+.btn-social i{
+	margin-right: 25px;
+	font-size: 21px;
+}
+.form-reg{
+	background: #eeeeee;
+	max-width: 390px;
+	margin: 0 auto;
+	padding: 30px;
+}
+.form-reg input{
+	border: none;
+	height: 50px;
+	border-radius: 0;
+	padding: 0 20px;
+}
+.register-form .social-login{
+	border-top: 1px solid #cccccc;
+	max-width: 390px;
+	margin: 40px auto;
+	padding-top: 30px;
+}
+.group-login{
+	margin: 0 auto;
+	max-width: 335px;
+}
+.datepicker{
+	position: relative;
+}
+.gr-date{
+	position: relative;
+}
+.gr-date:after{
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 400;
+	content: "\f073";
+	display: inline-block;
+	position: absolute;
+	right: 20px;
+	top: 15px;
+	font-size: 16px;
+}
+/*================ Header ========= */
+.top-bar{
+	background: #222222;
+	height: 72px;
+	display: flex;
+	align-items: center;
+}
+.top-bar>.container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.top-bar .menu-right ul{
+	display: flex;
+	color: #fff;
+	margin-bottom: 0;
+}
+.top-bar .menu-right ul li:not(:last-child){
+	margin-right: 50px;
+}
+.top-bar .menu-right ul li i{
+	color: #cfb25b;
+}
+.main-menu ul{
+	margin-bottom: 0;
+}
+.main-menu ul li{
+	float: left;
+	height: 65px;
+	align-items: center;
+	display: flex;
+	margin-right: 45px;
+	border-bottom: 3px solid transparent;
+}
+.main-menu ul li:hover, .main-menu ul li.active{
+	border-bottom: 3px solid #fac800;
+}
+.main-menu ul li a{
+	font-size: 18px;
+	font-family: 'Big Shoulders Text';
+	font-weight: 500;
+	color: #222222;
+	text-transform: uppercase;
+}
+/*==================== main-content ============*/
+#main-content{
+	background: #eeeeee;
+	padding: 30px 0 100px;
+}
+.br-left ul li{
+	display: flex;
+	align-items: center;
+	background: #fff;
+	margin-bottom: 3px;
+	padding: 0 25px;
+	height: 80px;
+}
+.br-left ul li.active i{
+	color: #fac800;
+}
+.br-left ul li i{
+	font-size: 30px;
+	margin-right: 20px;
+	width: 30px;
+	text-align: center;
+}
+.br-left ul li .z-ct h4{
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.br-left ul li .z-ct p{
+	font-size: 11px;
+	margin-bottom: 0;
+}
+.br-right{
+	padding: 20px 40px;
+	background: #fff;
+	min-height: 650px;
+}
+.title-block h4{
+	font-weight: bold;
+	color: #cccccc;
+	font-size: 14px;
+	text-transform: uppercase;
+	position: relative;
+	margin-bottom: 0;
+	overflow: hidden;
+}
+.title-block h4:after{
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 1px;
+	background: #eeeeee;
+	bottom: 0;
+	margin-left: 15px;
+}
+.form-attribute{
+	margin-top: 30px;
+}
+.form-attribute label{
+	max-width: 245px;
+	width: 100%;
+}
+.btn-kdgi{
+	background: #fac800;
+	border: none;
+	min-width: 130px;
+	height: 38px;
+	line-height: 38px;
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+	font-family: 'Big Shoulders Text';
+	text-transform: uppercase;
+	font-size: 16px;
+	border-radius: 5px;
+	display: block;
+}
+.group-info-left ul li{
+	display: flex;
+	width: 290px;
+	align-items: center;
+	justify-content: space-between;
+}
+.group-account label{
+	margin-bottom: 0;
+}
+.group-account ul li{
+	margin-bottom: 25px;
+}
+.group-info-medium ul li{
+	display: flex;
+	width: 255px;
+	align-items: center;
+	justify-content: space-between;
+}
+/*============================ Footer =============*/
+#footer{
+	background: #000000;
+	color: #cccccc;
+	padding: 50px 0 0;
+}
+.ft-widget-1{
+	max-width: 401px;
+	font-size: 13px;
+	float: left;
+	margin-right: 85px;
+}
+.ft-widget-1 ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.ft-widget-1 ul li img{
+	margin-right: 10px;
+	max-height: 17px;
+}
+.logo-ft{
+	margin-bottom: 30px;
+}
+.title-widget{
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 'Big Shoulders Text';
+	color: #fac800;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+.ft-widget-2{
+	width: 100%;
+	max-width: 115px;
+	float: left;
+	margin-right: 70px;
+	font-size: 13px;
+	color: #ffffff;
+}
+.ft-widget-3{
+	width: 100%;
+	max-width: 129px;
+	float: left;
+	margin-right: 70px;
+	font-size: 13px;
+}
+.ft-widget ul{
+	padding-left: 15px;
+}
+.ft-widget ul li{
+	margin-bottom: 20px;
+	list-style: outside;
+}
+.ft-widget ul li a{
+	font-size: 13px;
+	color: #fff;
+}
+.ft-widget-4{
+	max-width: 300px;
+	float: left;
+	width: 100%;
+}
+.ft-widget-4 input{
+	height: 42px;
+	line-height: 42px;
+	color: #999999;
+	font-size: 13px;
+	border-radius: 5px;
+}
+.btn-smb{
+	background: #fac800;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 'Big Shoulders Text';
+	width: 100%;
+	display: block;
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 5px;
+	border: none;
+}
+.list-social{
+	display: flex;
+	margin-top: 30px;
+}
+.list-social a{
+	background: #fac800;
+	width: 48px;
+	height: 48px;
+	display: block;
+	line-height: 48px;
+	border-radius: 50%;
+	text-align: center;
+	margin-right: 15px;
+}
+.list-social a:hover{
+	background: #fff;
+}
+.footer-top{
+	padding-bottom: 60px;
+	border-bottom: 1px solid #666666;
+	margin-bottom: 30px;
+}
+.absolute-footer p{
+	color: #666666;
+	font-size: 13px;
+	margin-bottom: 30px;
+}
+/*==========================Bao Mat ===========*/
+#menu-security{
+	border: none;
+	display: flex;
+	justify-content: space-between;
+}
+#menu-security li a{
+	font-weight: bold;
+	color: #222222;
+	border: none;
+	border-radius: 5px;
+}
+#menu-security li:first-child a{
+	padding-left: 0;
+}
+#menu-security li:last-child a{
+	padding-right: 0;
+}
+#menu-security li.active a{
+	background: #448ccb;
+	color: #fff;
+	border-radius: 5px;
+}
+#menu-security-content{
+	margin-top: 50px;
+}
+#menu-security-content input{
+	border-radius: 0;
+	height: 30px;
+}
+#menu-security-content .btn-smb{
+	max-width: 130px;
+}
+/*============================== Nap KDG ================*/
+.step-kdg-nap{
+	background: #448ccb;
+	height: 50px;
+	padding: 0 20px;
+	color: #fff;
+	border-radius: 5px;
+	font-weight: bold;
+}
+.step-kdg-nap li:not(:last-child){
+	margin-right: 20px;
+}
+.select-network ul{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 0;
+}
+.select-network ul li a{
+	background: #cccccc;
+	display: flex;
+	border-radius: 5px;
+	min-width: 180px;
+	height: 60px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+.select-network ul li a img{
+	-webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.select-network ul li a:hover{
+	background: #fac800;
+}
+.select-network ul li a:hover img{
+	-webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+.form-nap{
+	max-width: 440px;
+	margin: 0 auto;
+}
+.form-nap input{
+	height: 30px;
+	border-radius: 0;
+}
+.form-nap label{
+	display: flex;
+	align-items: center;
+	margin-bottom: 0;
+}
+.form-nap .btn-smb{
+	max-width: 130px;
+}
+.break-bottom{
+	background: #eeeeee;
+	padding: 40px;
+}
+.break-bottom p{
+	margin-bottom: 5px;
+}
+.selprice{
+	margin: 0 auto;
+	padding: 0;
+}
+.bxselprice{
+    width: 580px;
+    margin: 0 auto;
+}
+ul.selprice li.selected, ul.selprice li:hover{
+    cursor: pointer;
+    border: 1px solid #009bdf;
+    margin: 0 -1px -1px 0;
+    z-index: 1;
+    background: #f0f8fc;
+}
+ul.selprice li{
+    width: 132px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    float: left;
+    background: #fff;
+    padding: 10px;
+    font-weight: 700;
+    position: relative;
+    margin: 0 -1px -1px 0;
+    z-index: 0;
+    cursor: pointer;
+    zoom: 1;
+}
+.bxselpriceatm ul.selprice li span {
+    font-weight: 400;
+    color: #777;
+}
+.icncheck {
+    width: 18px;
+    height: 16px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-position: -96px -496px;
+}
+.zpsprt {
+    background-image: url(../images/zpsprt.png);
+}
+.bxselpriceatm ul.selprice li span.hidden {
+    display: none;
+}
+.bxitem, ul.selprice li {
+    border: 1px solid #e7e7e7;
+}
+input[type=radio] {
+    display: none;
+}
+input[type=checkbox], input[type=radio] {
+    border: 0;
+    vertical-align: middle;
+}
+.bxselpriceatm ul.selprice li span {
+    font-weight: 400;
+    color: #777;
+}
+input[type=radio]+label span.radio {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    vertical-align: -3px;
+    background-position: 0 0;
+    cursor: pointer;
+}
+input[type=radio]+label span.radio, input[type=checkbox]+label span.checkbox {
+    background: url(../images/eformsprt.png) no-repeat;
+}
+input[type=radio]+label span.radio.current {
+    background-position: 0 -32px;
+}
+ul.selprice li label{
+	margin-bottom: 0;
+}
+.formrow .textinput.colinput {
+    width: 74px;
+    padding: 3px 6px;
+    font-size: 12px;
+}
+.logobanksprt {
+    background-image: url(../images/bankinglogos_sprt.png)
+}
+.icobank {
+    width: 85px;
+    height: 38px;
+    display: inline-block;
+    vertical-align: -13px;
+    margin-top: -4px;
+}
+.selbank ul li, .world-sell ul li{
+	height: 57px;
+}
+.icobank.abb, .icobank.anbinhbank {
+    background-position: -96px -260px;
+}
+.icobank.vcb,
+.icobank.vietcombank {
+    background-position: 0 3px
+}
+.icobank.viettinbank,
+.icobank.vtb {
+    background-position: 0 -40px
+}
+.icobank.dab,
+.icobank.dongabank {
+    background-position: 0 -77px
+}
+.icobank.eib,
+.icobank.eximbank {
+    background-position: 0 -125px
+}
+.icobank.tcb,
+.icobank.techcombank {
+    background-position: 0 -173px
+}
+.icobank.maritimebank,
+.icobank.mrtb {
+    background-position: 0 -215px
+}
+.icobank.nab,
+.icobank.namabank {
+    background-position: 0 -269px
+}
+.icobank.tpb,
+.icobank.tpbank {
+    background-position: 0 -330px
+}
+.icobank.ocb,
+.icobank.ocbbank {
+    background-position: -208px -235px
+}
+.icobank.agb,
+.icobank.agribank {
+    background-position: -96px 3px
+}
+.icobank.bidv,
+.icobank.bidvbank {
+    background-position: -96px -39px
+}
+.icobank.sacombank,
+.icobank.scb {
+    background-position: -96px -79px
+}
+.icobank.vib,
+.icobank.vibbank {
+    background-position: -96px -122px
+}
+.icobank.mb,
+.icobank.mbbank {
+    background-position: -96px -171px
+}
+.icobank.acb,
+.icobank.achaubank {
+    background-position: -96px -215px
+}
+.icobank.abb,
+.icobank.anbinhbank {
+    background-position: -96px -260px
+}
+.icobank.vpb,
+.icobank.vpbank {
+    background-position: -96px -293px
+}
+.icobank.oceanbank,
+.icobank.oceb {
+    background-position: -96px -331px
+}
+.icobank.hdb,
+.icobank.hdbank {
+    background-position: -208px 7px
+}
+.icobank.vab,
+.icobank.vietabank {
+    background-position: -208px -32px
+}
+.icobank.ncbbank,
+.icobank.nvb {
+    background-position: -208px -70px
+}
+.icobank.ctbank,
+.icobank.sgb {
+    background-position: -208px -143px
+}
+.icobank.gpb,
+.icobank.gpbank {
+    background-position: -208px -100px
+}
+.icobank.pgb,
+.icobank.pgbank {
+    background-position: -208px -185px
+}
+.icobank.shbbank {
+    background-position: 0 -373px;
+}
+.icobank.seabank {
+    background-position: 0 -422px;
+}
+.icobank.bvbank {
+    background-position: 0 -468px;
+}
+.icobank.lbbank {
+    background-position: 0 -512px;
+}
+.icobank.visa {
+    background-position: -208px -285px
+}
+.icobank.master {
+    background-position: -208px -333px
+}
+.icobank.jcb {
+    background-position: -208px -380px
+}
+.world-sell h6{
+	margin-bottom: 15px;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.bottom-btn-submit .btn-smb{
+	max-width: 130px;
+	margin: 0 auto;
+}
+.vi-dien-tu ul{
+	display: flex;
+	justify-content: center;
+}
+.vi-dien-tu ul li{
+	margin: 0 20px;
+}
+.vi-dien-tu ul li img{
+	border-radius: 5px;
+}
+.box-filter select{
+	height: 38px;
+	border-radius: 0;
+	color: #bbbbbb;
+}
+.box-filter .btn-smb{
+	height: 38px;
+	line-height: 38px;
+}

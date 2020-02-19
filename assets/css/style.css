@@ -172,6 +172,10 @@ a:hover{
 	justify-content: space-between;
 	align-items: center;
 }
+.top-bar .menu-right{
+	display: flex;
+	align-items: center;
+}
 .top-bar .menu-right ul{
 	display: flex;
 	color: #fff;
@@ -206,7 +210,7 @@ a:hover{
 }
 /*==================== main-content ============*/
 #main-content{
-	background: #eeeeee;
+	background: #fff;
 	padding: 30px 0 100px;
 }
 .br-left ul li{
@@ -1122,4 +1126,132 @@ h5.round{
 }
 .load-btn:hover{
 	color: #cccccc;
+}
+/*=============================== TRANG CHU ==================*/
+.top-dashboard{
+	background: #151515;
+	padding-top: 30px;
+	max-height: 300px;
+}
+.board-left{
+	width: 100%;
+	float: left;
+	max-width: 380px;
+	border-radius: 5px;
+	background: #fff;
+	padding: 20px 25px;
+	min-height: 168px;
+}
+.same-titleb{
+	font-family: 'Big Shoulders Text';
+	text-transform: uppercase;
+	font-size: 20px;
+	margin-bottom: 20px;
+	font-weight: 500;
+	color: #000000;
+}
+.info-acc h5{
+	font-size: 13px;
+	font-weight: bold;
+}
+.info-acc p b{
+	font-size: 16px;
+}
+.board-account img{
+	margin-right: 20px;
+}
+.board-right{
+	max-width: 770px;
+	width: 100%;
+	float: right;
+	background: #fac800;
+	border-radius: 5px;
+	padding: 20px 30px;
+}
+.board-right ul li{
+	max-width: 136.65px;
+	width: 100%;
+	border-radius: 5px;
+	background: #fff;
+	height: 84px;
+	padding: 15px;
+	position: relative;
+}
+.board-right ul li h5{
+	font-family: 'Big Shoulders Text';
+	font-size: 20px;
+	font-weight: 500;
+	color: #fac800;
+}
+.board-right ul li h5 span{
+	font-size: 10px;
+	font-family: 'Noto Sans', sans-serif;
+}
+.board-right ul li p{
+	font-size: 21px;
+	margin-bottom: 0;
+}
+.right-top-title a{
+	color: #000000;
+	font-size: 12px;
+}
+.banner-top{
+	margin-top: 40px;
+}
+.main-home-news{
+	margin-top: 120px;
+}
+.item-news-kdg{
+	margin-bottom: 30px;
+}
+.item-news-kdg h3{
+	line-height: 0;
+	margin: 15px 0;
+}
+.item-news-kdg h3 a{
+	font-size: 21px;
+	font-weight: bold;
+	font-family: 'Big Shoulders Text';
+	color: #111111;
+	line-height: 29px;
+}
+.item-news-kdg p{
+	color: #888888;
+	line-height: 24px;
+}
+.read-more a{
+	background: #fac800;
+	display: block;
+	font-family: 'Big Shoulders Text';
+	font-size: 17px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #fff;
+	width: 96px;
+	height: 36px;
+	text-align: center;
+	border-radius: 5px;
+	line-height: 36px;
+}
+.b-lock{
+	position: absolute;
+	top: 30px;
+	right: 15px;
+	font-size: 12px;
+	color: #aaaaaa;
+}
+.language-box ul li img{
+	width: 16px;
+	height: 16px;
+	margin-right: 5px;
+}
+.language-box{
+	margin-left: 30px;
+}
+.language-box ul li a{
+	font-size: 13px;
+	color: #fff;
+}
+.language-box ul li .dropdown-menu a{
+	color: #000;
 }

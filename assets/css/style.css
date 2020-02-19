@@ -1067,3 +1067,59 @@ h5.round{
 	color: #fff;
 	font-size: 18px;
 }
+/*========================= Top Bounty ===============*/
+#main-content.top-bounty-bg{
+	background: #000 url('../images/bg-top-bounty.png') no-repeat;
+	background-position: top;
+}
+.top-bounty-2 .white-bg{
+	background: #fff;
+	padding: 20px 0 100px;
+}
+.top-bounty-2 ul li{
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #dbdbdb;
+}
+.top-bounty-2 ul{
+	max-width: 700px;
+	margin: 0 auto;
+}
+.spon-left .stt{
+	display: block;
+	flex: none;
+	width: 36px;
+	height: 36px;
+	background: #d4ae6a;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 36px;
+	font-size: 14px;
+	font-weight: 500;
+	color: #fff;
+	margin-right: 20px;
+}
+.name-badge p{
+	font-size: 14px;
+	margin-left: 20px;
+}
+.spon-right p{
+	font-size: 14px;
+	margin-right: 15px;
+}
+.load-btn{
+	font-size: 17px;
+	font-family: 'Big Shoulders Text';
+	font-weight: 500;
+	min-width: 128px;
+	height: 36px;
+	line-height: 36px;
+	border-radius: 5px;
+	border: 1px solid #cccccc;
+	text-align: center;
+	color: #cccccc;
+	text-transform: uppercase;
+}
+.load-btn:hover{
+	color: #cccccc;
+}

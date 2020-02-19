@@ -833,3 +833,216 @@ ul.selprice li label{
 	justify-content: center;
 	margin: 0 auto;
 }
+/*========================== Bounty ================*/
+.item-gift{
+	background: #fff;
+	border-radius: 5px;
+	padding: 30px 30px 0 30px;
+	display: flex;
+	min-height: 375px;
+	margin-bottom: 30px;
+}
+.left-colsz{
+	margin-right: 30px;
+	position: relative;
+}
+.left-colsz:after{
+	position: absolute;
+	left: 0;
+	content: '';
+	width: 1px;
+	height: calc(100% - 85px);
+	top: 85px;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	background: #565656;
+}
+.title-gift h4{
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+.button_blind button{
+	width: 140px;
+	height: 45px;
+	background: #fac800;
+	border-radius: 22.5px;
+	border: none;
+	font-size: 16px;
+	font-weight: 500;
+	color: #fff;
+	margin-top: 20px;
+}
+.item-gift ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.item-gift ul li{
+	margin-bottom: 25px;
+	font-size: 16px;
+	position: relative;
+	padding-left: 20px;
+}
+.item-gift ul li:before{
+	position: absolute;
+	left: 0;
+	content: '';
+	width: 8px;
+	border-radius: 50%;
+	height: 8px;
+	top: 8px;
+	background: #fac800;
+}
+.item-telegram ul li input, .input-mt{
+	background: #c9c9c9;
+	color: #fff;
+	width: 100%;
+	border-radius: 3px;
+	border: none;
+	padding: 5px 15px;
+}
+.item-twitter{
+	min-height: 530px;
+}
+.item-zalo{
+	min-height: 190px;
+}
+.item-user{
+	min-height: 310px;
+}
+.box-vq{
+	background: url('../images/bg-vq.png') no-repeat;
+	background-size: cover;
+	padding: 50px 0;
+}
+/*=========================== IGO ================*/
+#main-content.igo-bg{
+	background: #151515;
+	padding-top: 50px;
+}
+.title-igo{
+	font-size: 64px;
+	font-weight: bold;
+	color: #fac800;
+	font-family: 'Big Shoulders Text';
+	text-align: center;
+}
+.sub-title-igo{
+	color: #fff;
+	font-size: 48px;
+	font-family: 'Big Shoulders Text';
+	font-weight: 500;
+	text-align: center;
+}
+.line_hr{
+	background: #fff;
+	height: 1px;
+	width: 155px;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.top-igo{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.top-igo p{
+	color: #fff;
+	font-size: 14px;
+}
+.box-hm{
+	max-width: 800px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.hm-total{
+	background: #fac800;
+	border-radius: 5px;
+	max-width: 380px;
+	padding: 35px;
+}
+.hm-total h4{
+	font-size: 25px;
+	font-family: 'Big Shoulders Text';
+	text-transform: uppercase;
+	font-weight: 500;
+	margin-bottom: 25px;
+	display: flex;
+	align-items: center;
+}
+.hm-total h4 img{
+	margin-right: 10px;
+}
+.hm-total p{
+	color: #000000;
+	font-size: 13px;
+	margin-bottom: 7px;
+}
+.item-igo{
+	background: #fff;
+	min-height: 160px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+.top-igo-box{
+	border-bottom: 1px solid #cccccc;
+	height: 50px;
+	padding: 0 30px;
+}
+.list-igotime{
+	margin-top: 60px;
+}
+.medium-igo-box{
+	min-height: 110px;
+	padding: 0 30px;
+}
+h5.round{
+	font-family: 'Big Shoulders Text';
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+.medium-igo-box span{
+	color: #999999;
+	font-size: 13px;
+}
+.medium-igo-box p{
+	font-size: 18px;
+	margin-bottom: 0;
+}
+.btn-buy-kdg{
+	background: #fac800;
+	width: 150px;
+	height: 32px;
+	border-radius: 16px;
+	border: none;
+	font-family: 'Big Shoulders Text';
+	font-size: 16px;
+	color: #fff;
+	font-weight: bold;
+}
+#block_countdown{
+	display: flex;
+}
+.countdown_time{
+	border: 1px solid #999999;
+	height: 70px;
+	width: 50px;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 10px;
+}
+.countdown_time .box-tc{
+	text-align: center;
+	font-size: 18px;
+}
+.countdown_time p{
+	font-size: 13px;
+	margin-bottom: 0;
+}

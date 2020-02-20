@@ -1355,3 +1355,91 @@ h5.round{
 	width: 35px;
 	height: 36px;
 }
+/*==================================== NAP WCOIN ==========================*/
+#wrapper.page-wcoin{
+	background: url('../images/bg-wcoin.png');
+	background-size: cover;
+}
+#wrapper.page-wcoin #main-content{
+	background: transparent;
+	padding: 50px 0 120px;
+}
+.title-wcoin{
+	font-size: 20px;
+	font-weight: bold;
+	color: #ffffff;
+	font-family: 'Big Shoulders Text';
+	text-transform: uppercase;
+	border-bottom: 1px solid #fac800;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+}
+.title-wcoin span{
+	color: #fac800;
+}
+.col-wcoin-left{
+	float: left;
+	max-width: 235px;
+	width: 100%;
+}
+.col-wcoin-left ul li{
+	background-image: linear-gradient(#21262f, #2d323a);
+	height: 60px;
+	color: #dddddd;
+	display: flex;
+	align-items: center;
+	padding: 0 20px;
+	font-size: 14px;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	cursor: pointer;
+}
+.col-wcoin-right{
+	float: right;
+	max-width: 840px;
+	width: 100%;
+}
+.col-wcoin-right ul li{
+	width: 100%;
+	max-width: 160px;
+	height: 200px;
+	background-image: linear-gradient(#21262f, #2d323a);
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center; 
+	text-align: center;
+	margin-left: 10px;
+	float: left;
+	margin-bottom: 30px;
+}
+.col-wcoin-right ul li:first-child, .col-wcoin-right ul li:nth-child(6){
+	margin-left: 0;
+}
+.col-wcoin-right ul li h5{
+	font-size: 24px;
+	font-weight: bold;
+	font-family: 'Big Shoulders Text';
+	margin-bottom: 20px;
+	color: #fff;
+}
+.col-wcoin-right ul li p{
+	font-size: 16px;
+	color: #fac800;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+.btn-wcoin-next a{
+	background: #fac800;
+	font-size: 18px;
+	font-weight: 500;
+	font-family: 'Big Shoulders Text';
+	border-radius: 20px;
+	height: 40px;
+	line-height: 40px;
+	display: block;
+	width: 160px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #000000;
+}

@@ -1443,3 +1443,40 @@ h5.round{
 	text-transform: uppercase;
 	color: #000000;
 }
+.fancy-bank{
+	display: none;
+}
+#popup-bank{
+	padding: 0;
+}
+#popup-bank h4{
+	font-family: 'Big Shoulders Text';
+	font-size: 24px;
+	background: #fac800;
+	text-transform: uppercase;
+	font-weight: bold;
+	height: 55px;
+	line-height: 55px;
+	margin-bottom: 30px;
+	padding: 0 80px;
+}
+.box-info-bank{
+	text-align: center;	
+	margin: 0 50px;
+	padding-bottom: 30px;
+}
+.box-vcb{
+	border-bottom: 1px solid #cccccc;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+}
+.box-info-bank h5{
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 15px;
+}
+.box-info-bank p{
+	margin-bottom: 5px;
+	font-size: 14px;
+}

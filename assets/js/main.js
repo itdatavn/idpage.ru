@@ -30,4 +30,15 @@ $('#rank-tab a').click(function (e) {
     $('#tab-rank-content .tab-pane').removeClass('active');
     $(targetId).addClass('show active');
 });
-
+//Popup Nap Wcoin Ngan Hang
+$('#bank-click').click(function () {       
+    $.fancybox.open({
+        src  : '#popup-bank',
+        type : 'inline',
+        opts : {
+            afterShow : function( instance, current ) {
+                // console.info( 'done!' );
+            }
+        }
+    });
+});

@@ -1487,3 +1487,69 @@ h5.round{
 	font-weight: bold;
 	margin-top: 15px;
 }
+/*===================================== Tai khoan game ==============*/
+.list-tkg ul li{
+	float: left;
+	width: 100%;
+	max-width: 285px;
+	margin-right: 10px;
+}
+.list-tkg ul li:last-child{
+	margin-right: 0;
+}
+.thumb-tkg{
+	height: 220px;
+	width: 100%;
+	max-width: 285px;
+}
+.thumb-muss15{
+	background: url('../images/MUSS_15.jpg') no-repeat;
+	background-position: right;
+	background-size: cover;
+}
+.thumb-ttk{
+	background: url('../images/TTK-Game.png') no-repeat;
+	background-position: right;
+	background-size: cover;
+}
+.thumb-vl1{
+	background: url('../images/VL-1.jpg') no-repeat;
+	background-position: right;
+	background-size: cover;
+}
+.thumb-mu-mobile{
+	background: url('../images/MU-2.png') no-repeat;
+	background-position: right;
+	background-size: cover;
+}
+.tkg-content{
+	background: #fac800;
+	padding: 30px 30px 45px;
+}
+.tkg-content h4{
+	font-family: 'Big Shoulders Text';
+	font-size: 20px;
+	font-weight: 500;
+	text-align: center;
+	color: #000000;
+	margin-bottom: 25px;
+	text-transform: uppercase;
+}
+.tkg-content p{
+	margin-bottom: 50px;
+	font-size: 12px;
+	text-align: center;
+}
+.btn-napkdg a{
+	display: block;
+	background: #fff;
+	font-family: 'Big Shoulders Text';
+	font-size: 16px;
+	font-weight: bold;
+	width: 150px;
+	height: 32px;
+	border-radius: 16px;
+	line-height: 32px;
+	color: #000000;
+	margin: 0 auto;
+}

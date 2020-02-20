@@ -20,3 +20,14 @@ $('#menu-security a').click(function (e) {
     $('#menu-security-content .tab-pane').removeClass('active');
     $(targetId).addClass('show active');
 });
+
+//Rank Menu Tab
+$('#rank-tab a').click(function (e) {
+    e.preventDefault();
+    var targetId = $(this).attr('data-href');
+    $('#rank-tab .active').removeClass('show active');
+    $(this).parent('li').addClass('show active');
+    $('#tab-rank-content .tab-pane').removeClass('active');
+    $(targetId).addClass('show active');
+});
+

@@ -1459,6 +1459,8 @@ h5.round{
 	line-height: 55px;
 	margin-bottom: 30px;
 	padding: 0 80px;
+	text-align: center;
+	min-width: 350px;
 }
 .box-info-bank{
 	text-align: center;	

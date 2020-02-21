@@ -30,8 +30,29 @@ $('#rank-tab a').click(function (e) {
     $('#tab-rank-content .tab-pane').removeClass('active');
     $(targetId).addClass('show active');
 });
+//Security Menu Tab
+$('#history-tab a').click(function (e) {
+    e.preventDefault();
+    var targetId = $(this).attr('data-href');
+    $('#history-tab .active').removeClass('show active');
+    $(this).parent('li').addClass('show active');
+    $('#history-tab-content .tab-pane').removeClass('active');
+    $(targetId).addClass('show active');
+});
 //Popup Nap Wcoin Ngan Hang
 $('#bank-click').click(function () {       
+    $.fancybox.open({
+        src  : '#popup-bank',
+        type : 'inline',
+        opts : {
+            afterShow : function( instance, current ) {
+                // console.info( 'done!' );
+            }
+        }
+    });
+});
+//Popup Nap
+$('.btn-naper').click(function () {       
     $.fancybox.open({
         src  : '#popup-bank',
         type : 'inline',

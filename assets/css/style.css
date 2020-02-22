@@ -31,6 +31,10 @@ body{
 	font-size: 13px;
 	color: #222222;
 }
+img{
+	max-width: 100%;
+	height: auto;
+}
 a{
 	color: #448ccb;
 }
@@ -1167,12 +1171,20 @@ h5.round{
 	font-size: 18px;
 }
 /*========================= Top Bounty ===============*/
-#main-content.top-bounty-bg{
-	background: #000 url('../images/bg-top-bounty.png') no-repeat;
-	background-position: top;
+#main-content.page-bounty-top{
+	background: #000 url('../images/bg-page-top-bounty.png') no-repeat;
+	background-position: top;	
+}
+.top-bounty-bg{
+	background: url('../images/bg-top-bounty.png') no-repeat;
+	background-position: bottom;
+	border-radius: 5px;
+}
+.top-bounty-1{
+	min-height: 460px;
+	padding-top: 70px;
 }
 .top-bounty-2 .white-bg{
-	background: #fff;
 	padding: 20px 0 100px;
 }
 .top-bounty-2 ul li{
@@ -1181,7 +1193,7 @@ h5.round{
 	border-bottom: 1px solid #dbdbdb;
 }
 .top-bounty-2 ul{
-	max-width: 700px;
+	max-width: 800px;
 	margin: 0 auto;
 }
 .spon-left .stt{
@@ -1221,6 +1233,41 @@ h5.round{
 }
 .load-btn:hover{
 	color: #cccccc;
+}
+.round-bountyz ul{
+	display: flex;
+	max-width: 800px;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+.round-bountyz ul li:nth-child(1){
+	margin-top: 50px;
+}
+.round-bountyz ul li:nth-child(3){
+	margin-top: 60px;
+}
+.round-bottom h5{
+	font-size: 32px;
+	margin-top: 10px;
+}
+.round-bottom p{
+	font-size: 14px;
+	margin-bottom: 5px;
+	color: #000000;
+}
+.round-bottom h6{
+	font-size: 14px;
+	color: #000000;
+}
+.buc-round{
+	margin-top: 15px;
+}
+.user-img-top{
+	width: 82px;
+	height: 82px;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	margin: 0 auto;
 }
 /*=============================== TRANG CHU ==================*/
 .top-dashboard{

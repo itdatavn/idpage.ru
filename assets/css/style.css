@@ -47,12 +47,19 @@ a:hover{
 }
 /*================ Login/ Register =============*/
 .wrapepr-account #footer{
-	background: #fff;
-	border-top: 1px solid #dddddd;
+	background: #010001;
+	border-top: 1px solid #39373a;
 	padding: 30px 0;
 }
 .wrapepr-account #footer .absolute-footer p{
 	margin-bottom: 0;
+}
+.wrapepr-account .container{
+	max-width: 830px;
+}
+.login-form{
+	background: url('../images/bg-top-login.png');
+	padding: 50px 0;
 }
 .login-page .btn-smb{
 	height: 50px;
@@ -65,9 +72,11 @@ a:hover{
 	font-family: 'Big Shoulders Text';
 	margin-bottom: 30px;
 	text-align: center;
+	color: #bd984c;
 }
 .title-form i{
 	margin-right: 5px;
+	color: #bd984c;
 }
 .login-left{
 	background: #eeeeee;
@@ -117,6 +126,7 @@ a:hover{
 	font-size: 14px;
 	margin: 0 auto;
 	line-height: 0;
+	background: #fff;
 }
 .btn-social i{
 	margin-right: 25px;
@@ -159,6 +169,88 @@ a:hover{
 	right: 20px;
 	top: 15px;
 	font-size: 16px;
+}
+.list-news-home{
+	padding: 50px 0;
+}
+.list-news-home h3{
+	margin: 15px 0;
+}
+.list-news-home h3 a{
+	font-size: 21px;
+	text-transform: uppercase;
+	font-family: 'Big Shoulders Text';
+	color: #111111;
+	font-weight: bold;
+}
+.play-now a{
+	background: #fac800;
+	display: block;
+	font-family: 'Big Shoulders Text';
+	font-size: 18px;
+	font-weight: 500;
+	width: 128px;
+	height: 40px;
+	border-radius: 20px;
+	line-height: 40px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+}
+.section-train{
+	background: url('../images/bg-chien-dich.jpg');
+	padding: 80px 0 50px;
+	background-size: contain;
+}
+.section-train h2{
+	color: #fff;
+	font-size: 27px;
+	font-weight: bold;
+	font-family: 'Big Shoulders Text';
+	text-transform: uppercase;
+}
+.color-yellow{
+	color: #fac800;
+}
+.section-train ul li{
+	background: #fac800;
+	border-radius: 5px;
+	padding: 27px;
+	width: 100%;
+	max-width: 380px;
+	float: left;
+	margin-bottom: 40px;
+	min-height: 240px;
+}
+.section-train ul li:nth-child(2n){
+	float: right;
+	background: url('../images/bt-k.png');
+}
+.section-train ul li:nth-child(3){
+	background: url('../images/bt-b.png');
+}
+.section-train ul li:nth-child(4){
+	background: url('../images/bg-gold.png');
+}
+.section-train ul li h5{
+	color: #000000;
+	font-size: 20px;
+	font-family: 'Big Shoulders Text';
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: -0.2px;
+}
+.section-train ul li p{
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+.ab-line{
+	width: 240px;
+	background: #fff;
+	height: 1px;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 20px;
 }
 /*================ Header ========= */
 .top-bar{

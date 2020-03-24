@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ID Page</title>
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap&subset=vietnamese" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/jquery-ui.css">
+	<link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="assets/css/kyc.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+	<div id="wrapper" class="w-100 float-left">
+		<header id="header" class="w-100 float-left">
+			<div class="top-bar w-100 float-left">
+				<div class="container">
+					<div class="logo">
+						<a href="#"><img src="assets/images/logo.png"></a>
+					</div>
+					<div class="menu-right">
+						<ul class="list-unstyled">
+							<li><i class="fas fa-user"></i> johnnychen244</li>
+							<li><i class="fas fa-list-ul"></i> Danh Sách Game</li>
+						</ul>
+					</div>
+				</div>
+			</div><!--top-bar-->
+			<div class="main-menu w-100 float-left">
+				<div class="container">
+					<ul class="list-unstyled">
+						<li class="active"><a href="#">Trang Chủ</a></li>
+						<li><a href="#">Nạp KDG</a></li>
+						<li><a href="#">Download</a></li>
+						<li><a href="#">Tin Tức</a></li>
+						<li><a href="#">GiftCode</a></li>
+					</ul>
+				</div>
+			</div><!--main-menu-->
+		</header>
+
+		<div id="main-content" class="bg-kyc w-100 float-left">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-xl-3">
+						<div class="br-left">
+							<ul class="list-unstyled">
+								<li>
+									<i class="far fa-user-circle"></i>
+									<div class="z-ct">
+										<h4>Thông tin chung</h4>
+										<p>Xem & cập nhật thông tin</p>
+									</div>
+								</li>
+								<li>
+									<i class="fas fa-shield-alt"></i>
+									<div class="z-ct">
+										<h4>Bảo mật tài khoản</h4>
+										<p>Các tiện ích bảo mật</p>
+									</div>
+								</li>
+								<li>
+									<i class="fab fa-get-pocket"></i>
+									<div class="z-ct">
+										<h4>Ví KDG</h4>
+										<p>Gửi - nhận KDG, KDT</p>
+									</div>
+								</li>
+								<li class="active">
+									<i class="fas fa-list-ul"></i>
+									<div class="z-ct">
+										<h4>Lịch sử giao dịch</h4>
+										<p>Các giao dịch với KDG</p>
+									</div>
+								</li>
+								<li>
+									<img src="assets/images/icon/ic-kyc.png">
+									<div class="z-ct">
+										<h4>KYC</h4>
+										<p>Xác thực tài khoản</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div><!--col-3-->
+					
+					<div class="col-12 col-xl-9">
+						<div class="br-right w-100 float-left">
+							<div class="kyc-verify">
+								<h4>Choose to upload passport or driver license</h4>
+								<ul class="list-unstyled">
+									<li>• Please use JPG, JPEG, PNG format. Maximum file size = 5MB</li>
+									<li>• To make sure the verification process is promt, please do not cover or smudge the photo.</li>
+								</ul>
+								<div class="kyc-upload-box mt-4">
+									<ul class="list-unstyled d-lg-flex justify-content-between">
+										<li class="mb-3 mb-lg-0">
+											<div class="box">
+												<input name="upload-driver-license" class="hidden-inputclick" id="upload-driver-license" type="file">
+												<div class="upload">
+													<label for="file-5" onclick='$("#upload-driver-license").click();'>
+														<figure><img src="assets/images/ic-driver-license.png"></figure>
+														<span>Click here to upload<br>Driver License</span>
+													</label>
+												</div>
+											</div>
+										</li>
+										<li class="d-flex justify-content-between">
+											<div class="box mr-3">
+												<input name="upload-passport" class="hidden-inputclick" id="upload-passport" type="file">
+												<div class="upload">
+													<label for="file-5" onclick='$("#upload-passport").click();'>
+														<figure><img src="assets/images/ic-upload-passport.png"></figure>
+														<span>Click here to upload<br>passport cover photo</span>
+													</label>
+												</div>
+											</div>
+											<div class="box">
+												<input name="upload-passport-page" class="hidden-inputclick" id="upload-passport-page" type="file">
+												<div class="upload">
+													<label for="file-5" onclick='$("#upload-passport-page").click();'>
+														<figure><img src="assets/images/ic-upload-passport-page.png"></figure>
+														<span>Click here to upload<br>passport page photo</span>
+													</label>
+												</div>
+											</div>
+										</li>
+
+									</ul>
+								</div>
+								<div class="kyc-photo">
+									<div class="kyc-left">
+										<p>Upload a photo that you are holding your driver license or passport.</p>
+										<p>Please also include a piece of paper with the word “Kingdom game 4.0” written on it with today’s date.</p>
+										<ul class="list-unstyled">
+											<li>• Make sure your face is in the photo.</li>
+											<li>• Your passport page must be clear enough.</li>
+											<li>• Please do not retouch the photo.</li>
+										</ul>
+									</div><!--kyc-left-->
+									<div class="kyc-right">
+										<div class="box">
+											<input name="upload-upload-photo" class="hidden-inputclick" id="upload-upload-photo" type="file">
+											<div class="upload">
+												<label for="file-5" onclick='$("#upload-upload-photo").click();'>
+													<figure><img src="assets/images/ic-upload-photo.png"></figure>
+													<span>Click here to upload</span>
+												</label>
+											</div>
+										</div>
+									</div><!--kyc-right-->
+								</div>
+								<div class="clear"></div>
+								<div class="kyc-submit">
+									<button class="btn-kdgi">SUBMIT KYC</button>
+								</div>
+							</div><!--kyc-verify-->
+						</div>
+					</div><!--col-xl-9-->
+				</div>
+			</div>
+		</div><!--main-content-->
+
+		<footer id="footer" class="w-100 float-left">
+	        <div class="footer-top w-100 float-left">
+	            <div class="container">
+	                <div class="ft-widget-1">
+	                    <div class="logo-ft">
+	                        <img src="assets/images/logo.png">
+	                    </div>
+	                    <p>Kingdom Game 4.0 là một nền tảng chơi game với các tính năng xã hội linh hoạt và cơ hội kiếm tiền, được thiết kế để trở thành cửa ngõ duy nhất đưa bạn vào vũ trụ trò chơi MMORPG. </p>
+	                    <ul class="list-unstyled">
+	                        <li>
+	                            <img src="assets/images/icon/ic-address.png"> 141 Middle Road, GSM Building #06-05 Singapore 188976
+	                        </li>
+	                        <li>
+	                            <img src="assets/images/icon/ic-address.png"> VP Việt Nam: 23-25 Trần Nhật Duật, Quận 1, TP Hồ Chí Minh
+	                        </li>
+	                        <li>
+	                            <img src="assets/images/icon/ic-hotline.png"> Hotline: 028.99999.456
+	                        </li>
+	                        <li><img src="assets/images/icon/ic-email.png"> contact@kingdomgame.co</li>
+	                    </ul>                    
+	                    <div class="list-social">
+	                        <a href="https://t.me/kingdomgame_group" class="telegram">
+	                            <img src="assets/images/icon/ic-telegram.png">
+	                        </a>
+	                        <a href="https://www.facebook.com/KingdomGameGlobal/" class="facebook" target="_blank">
+	                            <img src="assets/images/icon/ic-facebook.png">
+	                        </a>
+	                        <a href="https://twitter.com/kingdomgame4" class="twitter" target="_blank">
+	                            <img src="assets/images/icon/ic-twitter.png">
+	                        </a>
+	                        <a href="https://www.youtube.com/channel/UCyPqPjP5zy8Om0jvjd1yhrQ" class="youtube" target="_blank">
+	                            <img src="assets/images/icon/ic-youtube.png">
+	                        </a>
+	                    </div>
+	                </div><!--ft-widget-1-->
+	                <div class="ft-widget-2 ft-widget">
+	                    <h4 class="title-widget">Về Chúng Tôi</h4>
+						<ul class="list-unstyled">
+							<li><a href="#">Giới Thiệu</a></li>
+							<li><a href="#">Tin Tức</a></li>
+							<li><a href="#">Blog</a></li>
+							<li><a href="#">Sản Phẩm</a></li>
+						</ul>
+	                </div><!--ft-widget-2-->
+	                <div class="ft-widget-3 ft-widget">
+	                    <h4 class="title-widget">Nền Tảng</h4>
+						<ul class="list-unstyled">
+							<li><a href="#">Giới Thiệu</a></li>
+							<li><a href="#">Tin Tức</a></li>
+							<li><a href="#">Blog</a></li>
+							<li><a href="#">Sản Phẩm</a></li>
+							<li><a href="#">Sản Phẩm</a></li>
+						</ul>
+	                </div><!--ft-widget-2-->
+	                <div class="ft-widget-4">
+	                    <h4 class="title-widget">NHẬN TIN TỨC TỪ CHÚNG TÔI</h4>
+	                    <div class="form-submitft">
+	                        <div class="form-group">
+	                            <input type="text" class="form-control" placeholder="Họ tên">
+	                        </div>
+	                        <div class="form-group">
+	                            <input type="text" class="form-control" placeholder="Email">
+	                        </div>
+	                        <div class="form-group">
+	                            <a href="#" class="btn-smb">Gửi Đi</a>
+	                        </div>
+	                    </div>
+	                </div><!--ft-widget-4-->
+	            </div><!--footer-top-->
+	        </div>
+	        <div class="absolute-footer w-100 float-left">
+	            <div class="container">
+	                <p>Copyright @ 2019 - KingdomGame.org . All Rights Reserved.</p>
+	            </div>
+	        </div><!--absolute-footer-->
+	    </footer>
+	</div>
+</body>
+<script type="text/javascript" src="assets/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery-ui.js"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
+</html>

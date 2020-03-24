@@ -1,0 +1,78 @@
+#main-content.bg-kyc{
+	background: url('../images/bg-kyc.jpg');
+}
+.br-left ul li img{
+	margin-right: 20px;
+}
+.kyc-verify>h4{
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+.hidden-inputclick{
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    cursor: pointer;
+}
+.kyc-upload-box ul{
+	max-width: 700px;
+	border-bottom: 1px solid #cccccc;
+	margin-bottom: 45px;
+	padding-bottom: 45px;
+}
+.kyc-upload-box ul li .box{
+    border: 3px solid #fac800;
+    width: 192px;
+    height: 140px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+    margin: 0 auto;
+}
+.upload label{
+	cursor: pointer;
+	margin-bottom: 0;
+	line-height: 18px;
+}
+.kyc-upload-box ul li{
+	position: relative;
+}
+.kyc-upload-box ul li:first-child:after{
+	content: '';
+	background: #cccccc;
+	height: 73px;
+	width: 1px;
+	position: absolute;
+	right: -55px;
+	top: 35px;
+}
+.kyc-left{
+	max-width: 230px;
+	float: left;
+	width: 100%;
+	margin-right: 70px;
+}
+.kyc-right .box{
+	border: 3px solid #fac800;
+    width: 306.31px;
+    height: 256px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+.kyc-submit button{
+	height: 42px;
+	width: 242px;
+	margin-top: 70px;
+	color: #000000;
+	font-size: 20px;
+}
